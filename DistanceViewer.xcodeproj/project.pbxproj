@@ -1,0 +1,507 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B90FE5111CBEBA7200462602 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B90FE5101CBEBA7200462602 /* AppDelegate.swift */; };
+		B90FE5131CBEBA7200462602 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B90FE5121CBEBA7200462602 /* ViewController.swift */; };
+		B90FE5161CBEBA7200462602 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B90FE5141CBEBA7200462602 /* Main.storyboard */; };
+		B90FE5181CBEBA7200462602 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B90FE5171CBEBA7200462602 /* Assets.xcassets */; };
+		B90FE51B1CBEBA7200462602 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B90FE5191CBEBA7200462602 /* LaunchScreen.storyboard */; };
+		B90FE5261CBEBA7200462602 /* DistanceViewerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B90FE5251CBEBA7200462602 /* DistanceViewerTests.swift */; };
+		B90FE5311CBEBA7200462602 /* DistanceViewerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B90FE5301CBEBA7200462602 /* DistanceViewerUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B90FE5221CBEBA7200462602 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B90FE5051CBEBA7200462602 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B90FE50C1CBEBA7200462602;
+			remoteInfo = DistanceViewer;
+		};
+		B90FE52D1CBEBA7200462602 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B90FE5051CBEBA7200462602 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B90FE50C1CBEBA7200462602;
+			remoteInfo = DistanceViewer;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B90FE50D1CBEBA7200462602 /* DistanceViewer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DistanceViewer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B90FE5101CBEBA7200462602 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B90FE5121CBEBA7200462602 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		B90FE5151CBEBA7200462602 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B90FE5171CBEBA7200462602 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B90FE51A1CBEBA7200462602 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B90FE51C1CBEBA7200462602 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B90FE5211CBEBA7200462602 /* DistanceViewerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DistanceViewerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B90FE5251CBEBA7200462602 /* DistanceViewerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DistanceViewerTests.swift; sourceTree = "<group>"; };
+		B90FE5271CBEBA7200462602 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B90FE52C1CBEBA7200462602 /* DistanceViewerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DistanceViewerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B90FE5301CBEBA7200462602 /* DistanceViewerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DistanceViewerUITests.swift; sourceTree = "<group>"; };
+		B90FE5321CBEBA7200462602 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B90FE50A1CBEBA7200462602 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B90FE51E1CBEBA7200462602 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B90FE5291CBEBA7200462602 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B90FE5041CBEBA7200462602 = {
+			isa = PBXGroup;
+			children = (
+				B90FE50F1CBEBA7200462602 /* DistanceViewer */,
+				B90FE5241CBEBA7200462602 /* DistanceViewerTests */,
+				B90FE52F1CBEBA7200462602 /* DistanceViewerUITests */,
+				B90FE50E1CBEBA7200462602 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B90FE50E1CBEBA7200462602 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B90FE50D1CBEBA7200462602 /* DistanceViewer.app */,
+				B90FE5211CBEBA7200462602 /* DistanceViewerTests.xctest */,
+				B90FE52C1CBEBA7200462602 /* DistanceViewerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B90FE50F1CBEBA7200462602 /* DistanceViewer */ = {
+			isa = PBXGroup;
+			children = (
+				B90FE5101CBEBA7200462602 /* AppDelegate.swift */,
+				B90FE5121CBEBA7200462602 /* ViewController.swift */,
+				B90FE5141CBEBA7200462602 /* Main.storyboard */,
+				B90FE5171CBEBA7200462602 /* Assets.xcassets */,
+				B90FE5191CBEBA7200462602 /* LaunchScreen.storyboard */,
+				B90FE51C1CBEBA7200462602 /* Info.plist */,
+			);
+			path = DistanceViewer;
+			sourceTree = "<group>";
+		};
+		B90FE5241CBEBA7200462602 /* DistanceViewerTests */ = {
+			isa = PBXGroup;
+			children = (
+				B90FE5251CBEBA7200462602 /* DistanceViewerTests.swift */,
+				B90FE5271CBEBA7200462602 /* Info.plist */,
+			);
+			path = DistanceViewerTests;
+			sourceTree = "<group>";
+		};
+		B90FE52F1CBEBA7200462602 /* DistanceViewerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				B90FE5301CBEBA7200462602 /* DistanceViewerUITests.swift */,
+				B90FE5321CBEBA7200462602 /* Info.plist */,
+			);
+			path = DistanceViewerUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B90FE50C1CBEBA7200462602 /* DistanceViewer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B90FE5351CBEBA7200462602 /* Build configuration list for PBXNativeTarget "DistanceViewer" */;
+			buildPhases = (
+				B90FE5091CBEBA7200462602 /* Sources */,
+				B90FE50A1CBEBA7200462602 /* Frameworks */,
+				B90FE50B1CBEBA7200462602 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DistanceViewer;
+			productName = DistanceViewer;
+			productReference = B90FE50D1CBEBA7200462602 /* DistanceViewer.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B90FE5201CBEBA7200462602 /* DistanceViewerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B90FE5381CBEBA7200462602 /* Build configuration list for PBXNativeTarget "DistanceViewerTests" */;
+			buildPhases = (
+				B90FE51D1CBEBA7200462602 /* Sources */,
+				B90FE51E1CBEBA7200462602 /* Frameworks */,
+				B90FE51F1CBEBA7200462602 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B90FE5231CBEBA7200462602 /* PBXTargetDependency */,
+			);
+			name = DistanceViewerTests;
+			productName = DistanceViewerTests;
+			productReference = B90FE5211CBEBA7200462602 /* DistanceViewerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B90FE52B1CBEBA7200462602 /* DistanceViewerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B90FE53B1CBEBA7200462602 /* Build configuration list for PBXNativeTarget "DistanceViewerUITests" */;
+			buildPhases = (
+				B90FE5281CBEBA7200462602 /* Sources */,
+				B90FE5291CBEBA7200462602 /* Frameworks */,
+				B90FE52A1CBEBA7200462602 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B90FE52E1CBEBA7200462602 /* PBXTargetDependency */,
+			);
+			name = DistanceViewerUITests;
+			productName = DistanceViewerUITests;
+			productReference = B90FE52C1CBEBA7200462602 /* DistanceViewerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B90FE5051CBEBA7200462602 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Craig Grummitt";
+				TargetAttributes = {
+					B90FE50C1CBEBA7200462602 = {
+						CreatedOnToolsVersion = 7.3;
+					};
+					B90FE5201CBEBA7200462602 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = B90FE50C1CBEBA7200462602;
+					};
+					B90FE52B1CBEBA7200462602 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = B90FE50C1CBEBA7200462602;
+					};
+				};
+			};
+			buildConfigurationList = B90FE5081CBEBA7200462602 /* Build configuration list for PBXProject "DistanceViewer" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B90FE5041CBEBA7200462602;
+			productRefGroup = B90FE50E1CBEBA7200462602 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B90FE50C1CBEBA7200462602 /* DistanceViewer */,
+				B90FE5201CBEBA7200462602 /* DistanceViewerTests */,
+				B90FE52B1CBEBA7200462602 /* DistanceViewerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B90FE50B1CBEBA7200462602 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B90FE51B1CBEBA7200462602 /* LaunchScreen.storyboard in Resources */,
+				B90FE5181CBEBA7200462602 /* Assets.xcassets in Resources */,
+				B90FE5161CBEBA7200462602 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B90FE51F1CBEBA7200462602 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B90FE52A1CBEBA7200462602 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B90FE5091CBEBA7200462602 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B90FE5131CBEBA7200462602 /* ViewController.swift in Sources */,
+				B90FE5111CBEBA7200462602 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B90FE51D1CBEBA7200462602 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B90FE5261CBEBA7200462602 /* DistanceViewerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B90FE5281CBEBA7200462602 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B90FE5311CBEBA7200462602 /* DistanceViewerUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B90FE5231CBEBA7200462602 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B90FE50C1CBEBA7200462602 /* DistanceViewer */;
+			targetProxy = B90FE5221CBEBA7200462602 /* PBXContainerItemProxy */;
+		};
+		B90FE52E1CBEBA7200462602 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B90FE50C1CBEBA7200462602 /* DistanceViewer */;
+			targetProxy = B90FE52D1CBEBA7200462602 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B90FE5141CBEBA7200462602 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B90FE5151CBEBA7200462602 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B90FE5191CBEBA7200462602 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B90FE51A1CBEBA7200462602 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B90FE5331CBEBA7200462602 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B90FE5341CBEBA7200462602 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B90FE5361CBEBA7200462602 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = DistanceViewer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.interactivecoconut.DistanceViewer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		B90FE5371CBEBA7200462602 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = DistanceViewer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.interactivecoconut.DistanceViewer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		B90FE5391CBEBA7200462602 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = DistanceViewerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.interactivecoconut.DistanceViewerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DistanceViewer.app/DistanceViewer";
+			};
+			name = Debug;
+		};
+		B90FE53A1CBEBA7200462602 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = DistanceViewerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.interactivecoconut.DistanceViewerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DistanceViewer.app/DistanceViewer";
+			};
+			name = Release;
+		};
+		B90FE53C1CBEBA7200462602 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = DistanceViewerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.interactivecoconut.DistanceViewerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = DistanceViewer;
+			};
+			name = Debug;
+		};
+		B90FE53D1CBEBA7200462602 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = DistanceViewerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.interactivecoconut.DistanceViewerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = DistanceViewer;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B90FE5081CBEBA7200462602 /* Build configuration list for PBXProject "DistanceViewer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B90FE5331CBEBA7200462602 /* Debug */,
+				B90FE5341CBEBA7200462602 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B90FE5351CBEBA7200462602 /* Build configuration list for PBXNativeTarget "DistanceViewer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B90FE5361CBEBA7200462602 /* Debug */,
+				B90FE5371CBEBA7200462602 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		B90FE5381CBEBA7200462602 /* Build configuration list for PBXNativeTarget "DistanceViewerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B90FE5391CBEBA7200462602 /* Debug */,
+				B90FE53A1CBEBA7200462602 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		B90FE53B1CBEBA7200462602 /* Build configuration list for PBXNativeTarget "DistanceViewerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B90FE53C1CBEBA7200462602 /* Debug */,
+				B90FE53D1CBEBA7200462602 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B90FE5051CBEBA7200462602 /* Project object */;
+}
