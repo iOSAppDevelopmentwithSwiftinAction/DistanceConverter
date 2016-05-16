@@ -14,6 +14,7 @@
 		B90FE51B1CBEBA7200462602 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B90FE5191CBEBA7200462602 /* LaunchScreen.storyboard */; };
 		B90FE5261CBEBA7200462602 /* DistanceViewerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B90FE5251CBEBA7200462602 /* DistanceViewerTests.swift */; };
 		B90FE5311CBEBA7200462602 /* DistanceViewerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B90FE5301CBEBA7200462602 /* DistanceViewerUITests.swift */; };
+		B90FE5B71CC16E7400462602 /* Distance.swift in Sources */ = {isa = PBXBuildFile; fileRef = B90FE5B61CC16E7400462602 /* Distance.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		B90FE52C1CBEBA7200462602 /* DistanceViewerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DistanceViewerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B90FE5301CBEBA7200462602 /* DistanceViewerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DistanceViewerUITests.swift; sourceTree = "<group>"; };
 		B90FE5321CBEBA7200462602 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B90FE5B61CC16E7400462602 /* Distance.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Distance.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +105,7 @@
 				B90FE5171CBEBA7200462602 /* Assets.xcassets */,
 				B90FE5191CBEBA7200462602 /* LaunchScreen.storyboard */,
 				B90FE51C1CBEBA7200462602 /* Info.plist */,
+				B90FE5B61CC16E7400462602 /* Distance.swift */,
 			);
 			path = DistanceViewer;
 			sourceTree = "<group>";
@@ -256,6 +259,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B90FE5B71CC16E7400462602 /* Distance.swift in Sources */,
 				B90FE5131CBEBA7200462602 /* ViewController.swift in Sources */,
 				B90FE5111CBEBA7200462602 /* AppDelegate.swift in Sources */,
 			);
@@ -484,6 +488,7 @@
 				B90FE5371CBEBA7200462602 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B90FE5381CBEBA7200462602 /* Build configuration list for PBXNativeTarget "DistanceViewerTests" */ = {
 			isa = XCConfigurationList;
@@ -492,6 +497,7 @@
 				B90FE53A1CBEBA7200462602 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B90FE53B1CBEBA7200462602 /* Build configuration list for PBXNativeTarget "DistanceViewerUITests" */ = {
 			isa = XCConfigurationList;
@@ -500,6 +506,7 @@
 				B90FE53D1CBEBA7200462602 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
