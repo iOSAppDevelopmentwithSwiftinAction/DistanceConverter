@@ -13,17 +13,17 @@ class Distance {
     var miles:Double
     var km:Double {
         get {
-            return Distance.toKm(miles)
+            return Distance.toKm(miles:miles)
         }
         set(newKm) {
-            miles = Distance.toMiles(newKm)
+            miles = Distance.toMiles(km:newKm)
         }
     }
     init(miles:Double) {
         self.miles = miles
     }
     init(km:Double) {
-        self.miles = Distance.toMiles(km)
+        self.miles = Distance.toMiles(km:km)
     }
     static func toKm(miles:Double)->Double {
         return miles * kmPerMile
