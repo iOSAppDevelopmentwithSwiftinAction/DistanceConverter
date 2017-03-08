@@ -7,14 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		B90FE5111CBEBA7200462602 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B90FE5101CBEBA7200462602 /* AppDelegate.swift */; };
-		B90FE5131CBEBA7200462602 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B90FE5121CBEBA7200462602 /* ViewController.swift */; };
 		B90FE5161CBEBA7200462602 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B90FE5141CBEBA7200462602 /* Main.storyboard */; };
-		B90FE5181CBEBA7200462602 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B90FE5171CBEBA7200462602 /* Assets.xcassets */; };
 		B90FE51B1CBEBA7200462602 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B90FE5191CBEBA7200462602 /* LaunchScreen.storyboard */; };
-		B90FE5261CBEBA7200462602 /* DistanceViewerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B90FE5251CBEBA7200462602 /* DistanceViewerTests.swift */; };
-		B90FE5311CBEBA7200462602 /* DistanceViewerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B90FE5301CBEBA7200462602 /* DistanceViewerUITests.swift */; };
-		B90FE5B71CC16E7400462602 /* Distance.swift in Sources */ = {isa = PBXBuildFile; fileRef = B90FE5B61CC16E7400462602 /* Distance.swift */; };
+		B92A782C1E70BE12003D04C1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B92A782B1E70BE12003D04C1 /* AppDelegate.swift */; };
+		B92A782E1E70BE21003D04C1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B92A782D1E70BE21003D04C1 /* ViewController.swift */; };
+		B92A78301E70BE2B003D04C1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B92A782F1E70BE2B003D04C1 /* Assets.xcassets */; };
+		B92A78341E70BE59003D04C1 /* Distance.swift in Sources */ = {isa = PBXBuildFile; fileRef = B92A78331E70BE59003D04C1 /* Distance.swift */; };
+		B92A78411E70C00F003D04C1 /* DistanceConverterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B92A783D1E70BEAC003D04C1 /* DistanceConverterTests.swift */; };
+		B92A78421E70C018003D04C1 /* DistanceConverterUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B92A78391E70BE9A003D04C1 /* DistanceConverterUITests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,20 +35,20 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		B90FE50D1CBEBA7200462602 /* DistanceViewer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DistanceViewer.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		B90FE5101CBEBA7200462602 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		B90FE5121CBEBA7200462602 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		B90FE50D1CBEBA7200462602 /* DistanceConverter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DistanceConverter.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B90FE5151CBEBA7200462602 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		B90FE5171CBEBA7200462602 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B90FE51A1CBEBA7200462602 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		B90FE51C1CBEBA7200462602 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		B90FE5211CBEBA7200462602 /* DistanceViewerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DistanceViewerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		B90FE5251CBEBA7200462602 /* DistanceViewerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DistanceViewerTests.swift; sourceTree = "<group>"; };
-		B90FE5271CBEBA7200462602 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		B90FE52C1CBEBA7200462602 /* DistanceViewerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DistanceViewerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		B90FE5301CBEBA7200462602 /* DistanceViewerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DistanceViewerUITests.swift; sourceTree = "<group>"; };
-		B90FE5321CBEBA7200462602 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		B90FE5B61CC16E7400462602 /* Distance.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Distance.swift; sourceTree = "<group>"; };
+		B90FE5211CBEBA7200462602 /* DistanceConverterTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DistanceConverterTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B90FE52C1CBEBA7200462602 /* DistanceConverterUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DistanceConverterUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B92A782B1E70BE12003D04C1 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = DistanceConverter/AppDelegate.swift; sourceTree = SOURCE_ROOT; };
+		B92A782D1E70BE21003D04C1 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ViewController.swift; path = DistanceConverter/ViewController.swift; sourceTree = SOURCE_ROOT; };
+		B92A782F1E70BE2B003D04C1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = DistanceConverter/Assets.xcassets; sourceTree = SOURCE_ROOT; };
+		B92A78311E70BE40003D04C1 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = DistanceConverter/Info.plist; sourceTree = SOURCE_ROOT; };
+		B92A78331E70BE59003D04C1 /* Distance.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Distance.swift; path = DistanceConverter/Distance.swift; sourceTree = SOURCE_ROOT; };
+		B92A78391E70BE9A003D04C1 /* DistanceConverterUITests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DistanceConverterUITests.swift; path = DistanceConverterUITests/DistanceConverterUITests.swift; sourceTree = SOURCE_ROOT; };
+		B92A783A1E70BE9A003D04C1 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = DistanceConverterUITests/Info.plist; sourceTree = SOURCE_ROOT; };
+		B92A783D1E70BEAC003D04C1 /* DistanceConverterTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DistanceConverterTests.swift; path = DistanceConverterTests/DistanceConverterTests.swift; sourceTree = SOURCE_ROOT; };
+		B92A783E1E70BEAC003D04C1 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = DistanceConverterTests/Info.plist; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,9 +79,9 @@
 		B90FE5041CBEBA7200462602 = {
 			isa = PBXGroup;
 			children = (
-				B90FE50F1CBEBA7200462602 /* DistanceViewer */,
-				B90FE5241CBEBA7200462602 /* DistanceViewerTests */,
-				B90FE52F1CBEBA7200462602 /* DistanceViewerUITests */,
+				B90FE50F1CBEBA7200462602 /* DistanceConverter */,
+				B90FE5241CBEBA7200462602 /* DistanceConverterTests */,
+				B90FE52F1CBEBA7200462602 /* DistanceConverterUITests */,
 				B90FE50E1CBEBA7200462602 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -89,51 +89,52 @@
 		B90FE50E1CBEBA7200462602 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				B90FE50D1CBEBA7200462602 /* DistanceViewer.app */,
-				B90FE5211CBEBA7200462602 /* DistanceViewerTests.xctest */,
-				B90FE52C1CBEBA7200462602 /* DistanceViewerUITests.xctest */,
+				B90FE50D1CBEBA7200462602 /* DistanceConverter.app */,
+				B90FE5211CBEBA7200462602 /* DistanceConverterTests.xctest */,
+				B90FE52C1CBEBA7200462602 /* DistanceConverterUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		B90FE50F1CBEBA7200462602 /* DistanceViewer */ = {
+		B90FE50F1CBEBA7200462602 /* DistanceConverter */ = {
 			isa = PBXGroup;
 			children = (
-				B90FE5101CBEBA7200462602 /* AppDelegate.swift */,
-				B90FE5121CBEBA7200462602 /* ViewController.swift */,
+				B92A782B1E70BE12003D04C1 /* AppDelegate.swift */,
+				B92A782D1E70BE21003D04C1 /* ViewController.swift */,
 				B90FE5141CBEBA7200462602 /* Main.storyboard */,
-				B90FE5171CBEBA7200462602 /* Assets.xcassets */,
+				B92A782F1E70BE2B003D04C1 /* Assets.xcassets */,
 				B90FE5191CBEBA7200462602 /* LaunchScreen.storyboard */,
-				B90FE51C1CBEBA7200462602 /* Info.plist */,
-				B90FE5B61CC16E7400462602 /* Distance.swift */,
+				B92A78311E70BE40003D04C1 /* Info.plist */,
+				B92A78331E70BE59003D04C1 /* Distance.swift */,
 			);
-			path = DistanceViewer;
+			path = DistanceConverter;
 			sourceTree = "<group>";
 		};
-		B90FE5241CBEBA7200462602 /* DistanceViewerTests */ = {
+		B90FE5241CBEBA7200462602 /* DistanceConverterTests */ = {
 			isa = PBXGroup;
 			children = (
-				B90FE5251CBEBA7200462602 /* DistanceViewerTests.swift */,
-				B90FE5271CBEBA7200462602 /* Info.plist */,
+				B92A783D1E70BEAC003D04C1 /* DistanceConverterTests.swift */,
+				B92A783E1E70BEAC003D04C1 /* Info.plist */,
 			);
-			path = DistanceViewerTests;
+			name = DistanceConverterTests;
+			path = DistanceConverter;
 			sourceTree = "<group>";
 		};
-		B90FE52F1CBEBA7200462602 /* DistanceViewerUITests */ = {
+		B90FE52F1CBEBA7200462602 /* DistanceConverterUITests */ = {
 			isa = PBXGroup;
 			children = (
-				B90FE5301CBEBA7200462602 /* DistanceViewerUITests.swift */,
-				B90FE5321CBEBA7200462602 /* Info.plist */,
+				B92A78391E70BE9A003D04C1 /* DistanceConverterUITests.swift */,
+				B92A783A1E70BE9A003D04C1 /* Info.plist */,
 			);
-			path = DistanceViewerUITests;
+			path = DistanceConverterUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		B90FE50C1CBEBA7200462602 /* DistanceViewer */ = {
+		B90FE50C1CBEBA7200462602 /* DistanceConverter */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = B90FE5351CBEBA7200462602 /* Build configuration list for PBXNativeTarget "DistanceViewer" */;
+			buildConfigurationList = B90FE5351CBEBA7200462602 /* Build configuration list for PBXNativeTarget "DistanceConverter" */;
 			buildPhases = (
 				B90FE5091CBEBA7200462602 /* Sources */,
 				B90FE50A1CBEBA7200462602 /* Frameworks */,
@@ -143,14 +144,14 @@
 			);
 			dependencies = (
 			);
-			name = DistanceViewer;
+			name = DistanceConverter;
 			productName = DistanceViewer;
-			productReference = B90FE50D1CBEBA7200462602 /* DistanceViewer.app */;
+			productReference = B90FE50D1CBEBA7200462602 /* DistanceConverter.app */;
 			productType = "com.apple.product-type.application";
 		};
-		B90FE5201CBEBA7200462602 /* DistanceViewerTests */ = {
+		B90FE5201CBEBA7200462602 /* DistanceConverterTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = B90FE5381CBEBA7200462602 /* Build configuration list for PBXNativeTarget "DistanceViewerTests" */;
+			buildConfigurationList = B90FE5381CBEBA7200462602 /* Build configuration list for PBXNativeTarget "DistanceConverterTests" */;
 			buildPhases = (
 				B90FE51D1CBEBA7200462602 /* Sources */,
 				B90FE51E1CBEBA7200462602 /* Frameworks */,
@@ -161,14 +162,14 @@
 			dependencies = (
 				B90FE5231CBEBA7200462602 /* PBXTargetDependency */,
 			);
-			name = DistanceViewerTests;
+			name = DistanceConverterTests;
 			productName = DistanceViewerTests;
-			productReference = B90FE5211CBEBA7200462602 /* DistanceViewerTests.xctest */;
+			productReference = B90FE5211CBEBA7200462602 /* DistanceConverterTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		B90FE52B1CBEBA7200462602 /* DistanceViewerUITests */ = {
+		B90FE52B1CBEBA7200462602 /* DistanceConverterUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = B90FE53B1CBEBA7200462602 /* Build configuration list for PBXNativeTarget "DistanceViewerUITests" */;
+			buildConfigurationList = B90FE53B1CBEBA7200462602 /* Build configuration list for PBXNativeTarget "DistanceConverterUITests" */;
 			buildPhases = (
 				B90FE5281CBEBA7200462602 /* Sources */,
 				B90FE5291CBEBA7200462602 /* Frameworks */,
@@ -179,9 +180,9 @@
 			dependencies = (
 				B90FE52E1CBEBA7200462602 /* PBXTargetDependency */,
 			);
-			name = DistanceViewerUITests;
+			name = DistanceConverterUITests;
 			productName = DistanceViewerUITests;
-			productReference = B90FE52C1CBEBA7200462602 /* DistanceViewerUITests.xctest */;
+			productReference = B90FE52C1CBEBA7200462602 /* DistanceConverterUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -210,7 +211,7 @@
 					};
 				};
 			};
-			buildConfigurationList = B90FE5081CBEBA7200462602 /* Build configuration list for PBXProject "DistanceViewer" */;
+			buildConfigurationList = B90FE5081CBEBA7200462602 /* Build configuration list for PBXProject "DistanceConverter" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -223,9 +224,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				B90FE50C1CBEBA7200462602 /* DistanceViewer */,
-				B90FE5201CBEBA7200462602 /* DistanceViewerTests */,
-				B90FE52B1CBEBA7200462602 /* DistanceViewerUITests */,
+				B90FE50C1CBEBA7200462602 /* DistanceConverter */,
+				B90FE5201CBEBA7200462602 /* DistanceConverterTests */,
+				B90FE52B1CBEBA7200462602 /* DistanceConverterUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -236,7 +237,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B90FE51B1CBEBA7200462602 /* LaunchScreen.storyboard in Resources */,
-				B90FE5181CBEBA7200462602 /* Assets.xcassets in Resources */,
+				B92A78301E70BE2B003D04C1 /* Assets.xcassets in Resources */,
 				B90FE5161CBEBA7200462602 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -262,9 +263,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B90FE5B71CC16E7400462602 /* Distance.swift in Sources */,
-				B90FE5131CBEBA7200462602 /* ViewController.swift in Sources */,
-				B90FE5111CBEBA7200462602 /* AppDelegate.swift in Sources */,
+				B92A78341E70BE59003D04C1 /* Distance.swift in Sources */,
+				B92A782E1E70BE21003D04C1 /* ViewController.swift in Sources */,
+				B92A782C1E70BE12003D04C1 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -272,7 +273,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B90FE5261CBEBA7200462602 /* DistanceViewerTests.swift in Sources */,
+				B92A78411E70C00F003D04C1 /* DistanceConverterTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -280,7 +281,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B90FE5311CBEBA7200462602 /* DistanceViewerUITests.swift in Sources */,
+				B92A78421E70C018003D04C1 /* DistanceConverterUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -289,12 +290,12 @@
 /* Begin PBXTargetDependency section */
 		B90FE5231CBEBA7200462602 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = B90FE50C1CBEBA7200462602 /* DistanceViewer */;
+			target = B90FE50C1CBEBA7200462602 /* DistanceConverter */;
 			targetProxy = B90FE5221CBEBA7200462602 /* PBXContainerItemProxy */;
 		};
 		B90FE52E1CBEBA7200462602 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = B90FE50C1CBEBA7200462602 /* DistanceViewer */;
+			target = B90FE50C1CBEBA7200462602 /* DistanceConverter */;
 			targetProxy = B90FE52D1CBEBA7200462602 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -412,9 +413,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = DistanceViewer/Info.plist;
+				INFOPLIST_FILE = DistanceConverter/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.interactivecoconut.DistanceViewer;
+				PRODUCT_BUNDLE_IDENTIFIER = com.interactivecoconut.DistanceConverter;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
@@ -424,9 +425,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = DistanceViewer/Info.plist;
+				INFOPLIST_FILE = DistanceConverter/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.interactivecoconut.DistanceViewer;
+				PRODUCT_BUNDLE_IDENTIFIER = com.interactivecoconut.DistanceConverter;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 3.0;
@@ -437,12 +438,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
-				INFOPLIST_FILE = DistanceViewerTests/Info.plist;
+				INFOPLIST_FILE = DistanceConverterTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.interactivecoconut.DistanceViewerTests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.interactivecoconut.DistanceConverterTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DistanceViewer.app/DistanceViewer";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DistanceConverter.app/DistanceConverter";
 			};
 			name = Debug;
 		};
@@ -450,13 +451,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
-				INFOPLIST_FILE = DistanceViewerTests/Info.plist;
+				INFOPLIST_FILE = DistanceConverterTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.interactivecoconut.DistanceViewerTests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.interactivecoconut.DistanceConverterTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 3.0;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DistanceViewer.app/DistanceViewer";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DistanceConverter.app/DistanceConverter";
 			};
 			name = Release;
 		};
@@ -488,7 +489,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		B90FE5081CBEBA7200462602 /* Build configuration list for PBXProject "DistanceViewer" */ = {
+		B90FE5081CBEBA7200462602 /* Build configuration list for PBXProject "DistanceConverter" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				B90FE5331CBEBA7200462602 /* Debug */,
@@ -497,7 +498,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		B90FE5351CBEBA7200462602 /* Build configuration list for PBXNativeTarget "DistanceViewer" */ = {
+		B90FE5351CBEBA7200462602 /* Build configuration list for PBXNativeTarget "DistanceConverter" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				B90FE5361CBEBA7200462602 /* Debug */,
@@ -506,7 +507,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		B90FE5381CBEBA7200462602 /* Build configuration list for PBXNativeTarget "DistanceViewerTests" */ = {
+		B90FE5381CBEBA7200462602 /* Build configuration list for PBXNativeTarget "DistanceConverterTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				B90FE5391CBEBA7200462602 /* Debug */,
@@ -515,7 +516,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		B90FE53B1CBEBA7200462602 /* Build configuration list for PBXNativeTarget "DistanceViewerUITests" */ = {
+		B90FE53B1CBEBA7200462602 /* Build configuration list for PBXNativeTarget "DistanceConverterUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				B90FE53C1CBEBA7200462602 /* Debug */,

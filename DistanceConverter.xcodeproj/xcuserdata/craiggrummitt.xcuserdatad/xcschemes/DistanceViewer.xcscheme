@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "B90FE50C1CBEBA7200462602"
-               BuildableName = "DistanceViewer.app"
-               BlueprintName = "DistanceViewer"
-               ReferencedContainer = "container:DistanceViewer.xcodeproj">
+               BuildableName = "DistanceConverter.app"
+               BlueprintName = "DistanceConverter"
+               ReferencedContainer = "container:DistanceConverter.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -33,9 +33,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "B90FE5201CBEBA7200462602"
-               BuildableName = "DistanceViewerTests.xctest"
-               BlueprintName = "DistanceViewerTests"
-               ReferencedContainer = "container:DistanceViewer.xcodeproj">
+               BuildableName = "DistanceConverterTests.xctest"
+               BlueprintName = "DistanceConverterTests"
+               ReferencedContainer = "container:DistanceConverter.xcodeproj">
             </BuildableReference>
          </TestableReference>
          <TestableReference
@@ -43,9 +43,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "B90FE52B1CBEBA7200462602"
-               BuildableName = "DistanceViewerUITests.xctest"
-               BlueprintName = "DistanceViewerUITests"
-               ReferencedContainer = "container:DistanceViewer.xcodeproj">
+               BuildableName = "DistanceConverterUITests.xctest"
+               BlueprintName = "DistanceConverterUITests"
+               ReferencedContainer = "container:DistanceConverter.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -53,9 +53,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "B90FE50C1CBEBA7200462602"
-            BuildableName = "DistanceViewer.app"
-            BlueprintName = "DistanceViewer"
-            ReferencedContainer = "container:DistanceViewer.xcodeproj">
+            BuildableName = "DistanceConverter.app"
+            BlueprintName = "DistanceConverter"
+            ReferencedContainer = "container:DistanceConverter.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -76,9 +76,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "B90FE50C1CBEBA7200462602"
-            BuildableName = "DistanceViewer.app"
-            BlueprintName = "DistanceViewer"
-            ReferencedContainer = "container:DistanceViewer.xcodeproj">
+            BuildableName = "DistanceConverter.app"
+            BlueprintName = "DistanceConverter"
+            ReferencedContainer = "container:DistanceConverter.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -95,9 +95,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "B90FE50C1CBEBA7200462602"
-            BuildableName = "DistanceViewer.app"
-            BlueprintName = "DistanceViewer"
-            ReferencedContainer = "container:DistanceViewer.xcodeproj">
+            BuildableName = "DistanceConverter.app"
+            BlueprintName = "DistanceConverter"
+            ReferencedContainer = "container:DistanceConverter.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>
