@@ -12,9 +12,13 @@ class ViewController: UIViewController {
   
   let distance = Distance(miles: 1000)
   
+  @IBOutlet weak var milesTextField: UITextField!
+  @IBOutlet weak var kmTextField: UITextField!
+  
   override func viewDidLoad() {
     super.viewDidLoad()
-    
+    milesTextField.text = "\(distance.miles)"
+    kmTextField.text = "\(distance.km)"
   }
   override func didReceiveMemoryWarning() {
     super.didReceiveMemoryWarning()

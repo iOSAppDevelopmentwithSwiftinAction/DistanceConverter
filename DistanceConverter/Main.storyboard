@@ -59,6 +59,10 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
+                    <connections>
+                        <outlet property="kmTextField" destination="qai-DC-WUV" id="meH-qc-ZJr"/>
+                        <outlet property="milesTextField" destination="f2A-sr-SZH" id="H0V-Kn-2MC"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ZRo-SQ-afd" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
