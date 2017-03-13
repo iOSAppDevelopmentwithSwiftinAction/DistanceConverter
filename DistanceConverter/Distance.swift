@@ -7,7 +7,7 @@
 //
 
 import Foundation
-class Distance {
+struct Distance {
     static let kmPerMile = 1.60934
     
     var miles:Double
