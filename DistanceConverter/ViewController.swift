@@ -10,7 +10,7 @@ import UIKit
 
 class ViewController: UIViewController {
   
-  let distance = Distance(miles: 1000)
+  var distance = Distance(miles: 1000)
   
   @IBOutlet weak var milesTextField: UITextField!
   @IBOutlet weak var kmTextField: UITextField!
