@@ -22,13 +22,13 @@ class ViewController: UIViewController {
     kmTextField.addTarget(self, action: #selector(convertToMiles), for: .editingChanged)
 
   }
-  @IBAction func convertToKm(_ sender: AnyObject) {
+  @IBAction func convertToKm(_ sender: Any) {
     if let miles = Double(milesTextField.text!) {
       distance.miles = miles
       kmTextField.text = "\(Int(distance.km))"
     }
   }
-  @IBAction func convertToMiles(_ sender: AnyObject) {
+  @IBAction func convertToMiles(_ sender: Any) {
     if let km = Double(kmTextField.text!) {
       distance.km = km
       milesTextField.text = "\(Int(distance.miles))"
