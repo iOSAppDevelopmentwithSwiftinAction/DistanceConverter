@@ -12,6 +12,7 @@ class ViewController: UIViewController {
   
   var distance = Distance(miles: 1000)
   
+  @IBOutlet weak var milesTextField: UITextField!
   override func viewDidLoad() {
     super.viewDidLoad()
     
